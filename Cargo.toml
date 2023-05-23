@@ -1,0 +1,22 @@
+[package]
+name = "ubergraph-oxigraph-benchmark"
+version = "0.1.0"
+authors = ["Jason Reilly <jdr0887@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+clap = { version = "^4.2", features = ["derive"] }
+curie = "^0.1"
+dirs = "^5.0"
+env_logger = "^0.10"
+futures = "^0.3"
+horned-functional = "0.4.0"
+horned-owl = "^0.11"
+humantime = "^2.1"
+log = { version = "^0.4", features = ["std"] }
+oxigraph = "^0.3"
+reqwest = { version = "^0.11", features = ["json"] }
+sophia = { version = "^0.7", features = ["default", "xml"] }
+sophia_api = "^0.7"
+tokio = { version = "^1", features = ["full"] }
+
